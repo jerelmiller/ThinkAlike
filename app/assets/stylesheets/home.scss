@@ -1,0 +1,40 @@
+@font-face {
+  font: {
+    family: Quadranta;
+    style: normal;
+    weight: normal;
+  }
+  src: url(Quadranta-Regular.otf);
+  -moz-font-feature-settings: "calt=0,liga=0";
+}
+
+html, body {
+  background: #333;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+
+}
+span {
+  font-family: Quadranta, "Open Sans", sans-serif;
+  text-align: center;
+  color: #DFDFDF;
+  font-size: 30px;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}
