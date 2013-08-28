@@ -1,4 +1,12 @@
 section {
+  clear: both;
+  padding: 20px 0;
+  // &:nth-child(2n+1) {
+  //   background: #ccc;
+  // }
+  &:last-child {
+    padding-bottom: 0;
+  }
   &.main {
     background: $dark-grey-background;
     color: $off-white-text;
@@ -17,5 +25,10 @@ section {
         font-weight: 300;
       }
     }
+  }
+
+  .player {
+    margin: 0 auto;
+    width: 960px;
   }
 }
