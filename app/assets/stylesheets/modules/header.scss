@@ -1,0 +1,28 @@
+header {
+  background: $dark-grey-background;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  ul {
+    list-style-type: none;
+    font: {
+      family: $header-font-family;
+      size: 18px;
+    }
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    line-height: 42px;
+    color: $off-white-text;
+    li {
+      display: inline;
+      margin-left: 40px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+@font-face {
+  font: {
+    family: Quadranta;
+    style: normal;
+    weight: normal;
+  }
+  src: url(Quadranta-Regular.otf);
+  -moz-font-feature-settings: "calt=0,liga=0";
+}
+
+@font-face {
+  font: {
+    family: GeoSansLight;
+    style: normal;
+    weight: normal;
+  }
+  src: url(GeosansLight.ttf) format("truetype");
+  -moz-font-feature-settings: "calt=0,liga=0";
+}

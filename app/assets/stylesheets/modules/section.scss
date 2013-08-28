@@ -1,0 +1,21 @@
+section {
+  &.main {
+    background: $dark-grey-background;
+    color: $off-white-text;
+    padding: 30px 0;
+    .icon {
+      @include box-sizing(border-box);
+      text-align: center;
+      width: 33%;
+      float: left;
+      [class^="icon-"] {
+        font-size: 150px;
+        margin-right: 10px;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
+  }
+}

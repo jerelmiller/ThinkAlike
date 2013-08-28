@@ -1,0 +1,38 @@
+.clients {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  .client-item {
+    border: 1px solid $border-color;
+    @include box-sizing(border-box);
+    float: left;
+    height: 250px;
+    width: 33.3%;
+    margin: -1px 0 0 -1px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &.mersive {
+      background-image: url(mersive-site-logo.png);
+    }
+    &.marriott {
+      background-image: url(marriott-logo.png);
+    }
+    &.huhot {
+      background-image: url(huhot-logo.png);
+    }
+    &.bodyfuel {
+      background-image: url(bodyfuel-logo.png);
+    }
+
+    @media only screen and (min-width: 1300px) {
+      width: 25%;
+    }
+    @media only screen and (min-width: 600px) and (max-width: 940px) {
+      width: 50%;
+    }
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
