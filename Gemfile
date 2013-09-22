@@ -7,7 +7,7 @@ gem 'jbuilder'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sass-rails'
+gem 'sass-rails', '~> 4.0.0'
 gem 'coffee-rails'
 gem "compass-rails", "~> 2.0.alpha.0"
 gem 'angularjs-rails'
