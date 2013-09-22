@@ -9,7 +9,7 @@ gem 'jbuilder'
 
 gem 'sass-rails'
 gem 'coffee-rails'
-gem 'compass-rails'
+gem "compass-rails", "~> 2.0.alpha.0"
 gem 'angularjs-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
